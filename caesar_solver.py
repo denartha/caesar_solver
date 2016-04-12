@@ -63,6 +63,7 @@ if opts.b:
 	msg = opts.b[0]
 	num = 0
 	for key in range(26):
+			print str(key) + ': ',
 			Shift(msg,key)
 			print ""
 
